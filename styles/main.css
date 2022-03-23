@@ -1,0 +1,59 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+    background-image: url('../images/bg-tablet-pattern.svg');
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    /* background-color: green; */
+}
+
+.banner-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-text {
+    margin-right: 220px;
+}
+
+.banner-h1 {
+    padding-top: 130px;
+    font-size: 60px;
+    color: rgb(26, 26, 56);
+}
+
+.banner-p {
+    padding: 25px 0;
+    font-size: 22px;
+    color: rgb(116, 116, 116);
+}
+
+.banner-link {
+    background-color: orangered;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-link:hover {
+    background-color: rgb(252, 114, 64);
+    cursor: pointer;
+}
+
+.banner-a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner-imgs {
+    padding-top: 130px;
+}
+
+.banner-img {
+    width: 630px;
+}
